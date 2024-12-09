@@ -1,6 +1,6 @@
-CREATE DATABASE table;
+CREATE DATABASE stock_1m;
 
-CREATE TABLE public."stock"
+CREATE TABLE public."stockseries"
 (
     ticker text,
     open double precision,
@@ -11,5 +11,5 @@ CREATE TABLE public."stock"
     date timestamp without time zone
 );
 
-ALTER TABLE IF EXISTS public."15_min_stock_table"
+ALTER TABLE IF EXISTS public."stockseries"
     OWNER to postgres;
