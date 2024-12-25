@@ -23,4 +23,4 @@ VN30 - Index of the 30 largest companies by market capitalization and liquidity 
 ## Limitation
 
 - The project has not dealt with API Rate Limit yet, which leads to issues in extract real-time stock data of the entire tickers.
-- API real-time
+- The data is not entirely accurate, specifically the volume, as it is not possible to crawl the exact figures due to the nature of the API.
